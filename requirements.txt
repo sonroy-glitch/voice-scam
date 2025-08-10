@@ -1,0 +1,10 @@
+streamlit
+torch
+transformers
+assemblyai
+flask_cors
+numpy
+scikit-learn
+scipy
+pandas
+joblib

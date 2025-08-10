@@ -35,7 +35,7 @@ flask_app = Flask(__name__)
 CORS(flask_app)
 
 # AssemblyAI setup
-aai.settings.api_key = "ee7668fc7e9c49139de60eeba6e14bbc"
+aai.settings.api_key = process.env.API_KEY
 config = aai.TranscriptionConfig(speech_model=aai.SpeechModel.best)
 
 UPLOAD_DIR = "uploads"
